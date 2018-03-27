@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuildAndAnalysis\2.1\Algorithms.cs" />
+    <Compile Include="LeetCode\AddTwoNumbersProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
