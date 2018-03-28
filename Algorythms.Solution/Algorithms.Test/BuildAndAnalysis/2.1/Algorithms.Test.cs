@@ -27,6 +27,11 @@ namespace Algorithms.Test.BuildAndAnalysis._2._1
                new byte[] { 0, 0, 0, 0, 0, 1 },
             new byte[] { 1, 0, 0, 0, 0, 0, 0 }
         )]
+        [TestCase(
+               new byte[] { 1, 1, 1 },
+               new byte[] { 0, 1, 1 },
+            new byte[] { 1, 0, 1, 0 }
+        )]
         public void AddBinaryNumbers(byte[]a, byte[]b, byte[] expectedResult)
         {
             //Arrange

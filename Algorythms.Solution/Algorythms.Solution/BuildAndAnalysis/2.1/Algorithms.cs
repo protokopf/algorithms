@@ -42,14 +42,9 @@ namespace Algorythms.Solution.BuildAndAnalysis._2._1
             while(index >= 1)
             {
                 byte current = (byte)(a[index - 1] + b[index - 1] + reminder);
-                if(current == 2)
+                if(current >= 2)
                 {
-                    current = 0;
-                    reminder = 1;
-                }
-                else if (current == 3)
-                {
-                    current = 1;
+                    current -= 2;
                     reminder = 1;
                 }
                 else
