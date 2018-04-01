@@ -50,6 +50,7 @@
     <Compile Include="BuildAndAnalysis\2.2\SomeAlgorithms.cs" />
     <Compile Include="Helpers.cs" />
     <Compile Include="LeetCode\AddTwoNumbersProblem.cs" />
+    <Compile Include="LeetCode\LongestSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

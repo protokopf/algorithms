@@ -50,6 +50,7 @@
     <Compile Include="BuildAndAnalysis\2.1\Algorithms.Test.cs" />
     <Compile Include="BuildAndAnalysis\2.2\SomeAlgorithms.Test.cs" />
     <Compile Include="Helpers\ArrayHelpers.cs" />
+    <Compile Include="LeetCode\LongestSubstring.Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
